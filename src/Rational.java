@@ -30,9 +30,31 @@ public class Rational {
         Rational a = new Rational(mianownik, liczebnik);
         Rational b = new Rational(ulamek.getMianownik(), ulamek.getLiczebnik());
 
-        a.setMianownik(a.getMianownik()*b.getLiczebnik());
-        b.setMianownik(a.getLiczebnik()*b.getMianownik());
+        b.setMianownik(b.getMianownik()*a.getMianownik());
+        b.setLiczebnik(b.getLiczebnik()*a.getMianownik());
 
+        a.setMianownik(a.getMianownik()*ulamek.getMianownik());
+        a.setLiczebnik(a.getLiczebnik()*ulamek.getMianownik());
 
+        a.setLiczebnik(a.getLiczebnik()+b.getLiczebnik());
+
+        return a;
+    }
+    public Rational odej(Rational ulamek){
+        Rational a = new Rational(mianownik, liczebnik);
+        Rational b = new Rational(ulamek.getMianownik(), ulamek.getLiczebnik());
+
+        b.setMianownik(b.getMianownik()*a.getMianownik());
+        b.setLiczebnik(b.getLiczebnik()*a.getMianownik());
+
+        a.setMianownik(a.getMianownik()*ulamek.getMianownik());
+        a.setLiczebnik(a.getLiczebnik()*ulamek.getMianownik());
+
+        a.setLiczebnik(a.getLiczebnik()-b.getLiczebnik());
+
+        return a;
+    }
+    public String toString(){
+        return liczebnik+"/"+mianownik;
     }
 }
