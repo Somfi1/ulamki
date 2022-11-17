@@ -54,7 +54,22 @@ public class Rational {
 
         return a;
     }
+    public Rational mnoz(Rational ulamek){
+        return new Rational(ulamek.getMianownik()*mianownik, ulamek.getLiczebnik()*liczebnik);
+    }
+    public Rational dziel(Rational ulamek){
+        Rational a = new Rational(ulamek.getLiczebnik(), ulamek.getMianownik());
+        return mnoz(a);
+    }
+    public double wartosc(){
+        return 1.0*liczebnik/mianownik;
+    }
     public String toString(){
         return liczebnik+"/"+mianownik;
+    }
+
+    public boolean rowne(Rational ulamek){
+        double epsilon = 0.000001;
+        return Math.abs(ulamek.wartosc()-wartosc())< epsilon;
     }
 }

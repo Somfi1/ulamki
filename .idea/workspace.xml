@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2d02a8d-bfe1-4df5-8f1c-0280234485ad" name="Changes" comment="Classa ulamek">
+    <list default="true" id="c2d02a8d-bfe1-4df5-8f1c-0280234485ad" name="Changes" comment="Dodano odejmowanie ulamków">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Rational.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rational.java" afterDir="false" />
@@ -46,7 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1668081060246</updated>
       <workItem from="1668081061738" duration="1889000" />
-      <workItem from="1668681788490" duration="1381000" />
+      <workItem from="1668681788490" duration="4206000" />
     </task>
     <task id="LOCAL-00001" summary="Classa ulamek">
       <created>1668082953557</created>
@@ -55,7 +55,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668082953557</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Dodano odejmowanie ulamków">
+      <created>1668683221534</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668683221534</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,6 +81,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Classa ulamek" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classa ulamek" />
+    <MESSAGE value="Dodano odejmowanie ulamków" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodano odejmowanie ulamków" />
   </component>
 </project>
